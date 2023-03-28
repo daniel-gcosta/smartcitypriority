@@ -23,5 +23,6 @@ pin7 = TM1637 (CLK);
 pin8 = TM1637 (DIO);
 
 The CPM is executed through the file "cpm.py".
-All configuration tables are defined through a specific txt file in the directoy "tables\". So, there are the "context.txt" for the CT and a subdirectoy "events\", which defines the events priority for each value of a. For exemple, for a=1, the file tables\events\1.txt must to be configured
 
+All configuration tables are defined through a specific txt file in the directoy "tables\". So, there are the "context.txt" for the CT and a subdirectoy "events\", which defines the events priority for each value of a. 
+For exemple, for a=1, the file tables\events\1.txt must to be configured.
