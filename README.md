@@ -14,6 +14,7 @@ pip3 install wiringpi
 
 Other important remark is when creating the temperature sensor in a Raspberry Pi board. The following variables have to be properly defined in the "tempsensor.py file, according to the implemented connections of the components.
 
+```C
 pin1 = LED (yellow);
 pin2 = LED (blue);
 pin3 = LED (green);
@@ -22,6 +23,7 @@ pin5 = Button;
 pin6 = DHT22 (DATA);
 pin7 = TM1637 (CLK);
 pin8 = TM1637 (DIO);
+```
 
 The CPM is executed through the file "cpm.py".
 
