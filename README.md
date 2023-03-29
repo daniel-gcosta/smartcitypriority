@@ -9,6 +9,8 @@ The sensor node is executed through the file "tempsensor.py". It requires two ad
 
 ```
 pip3 install Adafruit_DHT
+```
+```
 pip3 install wiringpi
 ```
 
