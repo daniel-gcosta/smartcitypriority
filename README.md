@@ -1,5 +1,5 @@
 # smartcitypriority
-A priority-based optimisation service for smart cities
+A priority-based optimisation service for smart cities, written by Prof. [Daniel G. Costa](https://sigarra.up.pt/feup/pt/FUNC_GERAL.FORMVIEW?p_codigo=514852).
 
 It is a Python3 implementation of temperature sensor nodes (tempsensor) and a central controller (CPM), performing prioritisation for different types of optimisations.
 
@@ -7,9 +7,10 @@ This implementation is a proof-of-concept of the definitions presented in the ar
 
 The sensor node is executed through the file "tempsensor.py". It requires two additional libraries, which can be installed through the following commands:
 
+```
 pip3 install Adafruit_DHT
-
 pip3 install wiringpi
+```
 
 Other important remark is when creating the temperature sensor in a Raspberry Pi board. The following variables have to be properly defined in the "tempsensor.py file, according to the implemented connections of the components.
 
